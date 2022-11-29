@@ -1,5 +1,4 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-
 /* eslint-disable */
 
 @Component({
@@ -9,6 +8,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
       <h2>Microfrontend ORDERS app</h2>
       <p>This app is developed independently.</p>
       <p>It implements logi related to manging system users</p>
+      <microfrontend-example-button [text]="'Shared button/add order'"></microfrontend-example-button>
     </div>
   `,
   styles: [],
